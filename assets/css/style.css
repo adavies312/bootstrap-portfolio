@@ -13,8 +13,7 @@ h1 {
 }
 p {
     font-size: 18px;
-    line-height: 1.2;
-    text-indent: 50px;
+    line-height: 2;
 }
 .container {
     width:960px;
@@ -68,4 +67,30 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     margin: 100px 0 0 0;
+    width:100%;
+  }
+
+#profile {
+    max-width: 100%;
+     
+  }
+  
+/* NAVBAR */
+.navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+  }
+.navbar-brand {
+    background: #4aaaa5;
+    color: #fff;
+    margin: 0 0 0 200px;
+      
+  }
+
+.navbar-nav {
+    float:right;
+  }
+.navbar-header {
+    color: #fff;
+    margin: 0 0 0 200px;
   }
