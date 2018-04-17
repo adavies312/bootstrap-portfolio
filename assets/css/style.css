@@ -16,7 +16,7 @@ p {
     line-height: 2;
 }
 .container {
-    width:100%;
+    width:960px;
     border-color: #dddddd;
     background-color: #ffffff;
     padding: 0 20px 20px 20px;
@@ -67,7 +67,8 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     margin: 100px 0 0 0;
-    width:100%;
+    min-width:960px;
+    max-width: 100%;
   }
 
 #profile {
