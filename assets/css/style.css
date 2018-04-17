@@ -81,6 +81,8 @@ footer {
 .navbar {
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
+    min-width: 960px;
+    max-width: 100%;
   }
 .navbar-brand {
     background: #4aaaa5;
@@ -88,8 +90,7 @@ footer {
     margin: 0 0 0 200px;
       
   }
-
-.navbar-nav {
+  .navbar-nav {
     float:right;
   }
 .navbar-header {
