@@ -14,10 +14,16 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Andrew Davies</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Andrew Davies</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
                         <a href="./index.html">About</a>
                     </li>
                     <li>
@@ -25,8 +31,9 @@
                     </li>
                     <li>
                         <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="container">
@@ -38,26 +45,25 @@
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-3">
-                <img src="./assets/images/Andrew-Davies.jpg" width="225px" height="225px" alt="Andrew Davies">
+                <img src="./assets/images/Andrew-Davies.jpg" class="img-responsive" alt="Andrew Davies">
             </div>
             <div class="col-xs-12 col-sm-8 col-md-9">
-                    <p>My name is Andrew Davies. I graduated from the University of Illinois in Urbana-Champaign Winter 2010 with a
-                            degree in Economics. Shortly thereafter I began embarking on a path that led me to becoming a web developer.</p>
-                        <p>Over the years, I have worked on numerous projects. My favorite would have to be participating in the creation
-                            of a mobile iOS game Alien Hero as a digital data analyst. The game was featured as a top new game in the
-                            Apple store. Most recently, I helped optimize a website for a financial firm: Chakra Advisors. A quick search
-                            of their company name and you will find they currently sit at the top spot on Google and on the front page
-                            of Bing and Yahoo. </p>
-                        <p>For fun, I enjoy photography and learning graphic design. I also am extremely interested in music and love attending
-                            concerts and music festivals. </p>
+                <p>My name is Andrew Davies. I graduated from the University of Illinois in Urbana-Champaign Winter 2010 with
+                    a degree in Economics. Shortly thereafter I began embarking on a path that led me to becoming a web developer.</p>
+                <p>Over the years, I have worked on numerous projects. My favorite would have to be participating in the creation
+                    of a mobile iOS game Alien Hero as a digital data analyst. The game was featured as a top new game in
+                    the Apple store. Most recently, I helped optimize a website for a financial firm: Chakra Advisors. A
+                    quick search of their company name and you will find they currently sit at the top spot on Google and
+                    on the front page of Bing and Yahoo. </p>
+                <p>For fun, I enjoy photography and learning graphic design. I also am extremely interested in music and love
+                    attending concerts and music festivals. </p>
             </div>
         </div>
     </div>
-    <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-        <footer>
+    <footer class="navbar footer">
+        <div class="container-fluid">
             <p>&copy; Copyright Andrew Davies 2018</p>
-        </footer>
         </div>
-</body>
+    </footer>
 
+</body>
